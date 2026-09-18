@@ -8,12 +8,12 @@
 # Regra
 # O cliente ganha o desconto se for estudante ou for terça e a sala for comum.
 
-estudante = str(input("Você é estudante? "))
-dia = str(input("Qual o dia da semana? "))
-sala = str(input("Qual o tipo de sala? "))
+estudante = input("Você é estudante? ")
+dia = input("Qual o dia da semana? ")
+sala = input("Qual o tipo de sala? ")
 
-if estudante == "Sim" or "sim" or dia == "Terça" or "terça":
-    if sala == "Comum" or "comum":
+if estudante == "sim" or dia == "terça":
+    if sala == "comum":
         print ("Desconto Aplicado!")
 else:
     print ("Valor Integral")
