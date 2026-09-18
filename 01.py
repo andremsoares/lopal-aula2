@@ -13,7 +13,7 @@ idade = int(input("Qual a idade do seu filho? "))
 altura = int(input("Qual a altura dele em centímetros? "))
 autorizacao = input("Tem autorização dos pais? Responda somente com 'Sim'ou 'Não'")
                     
-if idade >= 12 and altura >= 140 or autorizacao == "Sim" or autorizacao == "sim":
-    print (f"Acesso Liberado!")
+if idade >= 12 and altura >= 140 or autorizacao == "sim":
+    print ("Acesso Liberado!")
 else:
-    print (f"Acesso Negado.")
+    print ("Acesso Negado.")
